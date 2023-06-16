@@ -1,10 +1,10 @@
-
 body {
     background-color: #c2c0ae;
+    color: #434242;
 }
 
 p {
-    line-height: 1.5 ;
+    line-height: 1.5;
 }
 
 table {
@@ -13,12 +13,4 @@ table {
     border-spacing: 0px;
     color: #434242;
     line-height: 2;
-}
-
-h3 {
-    color: #434242;
-}
-
-h4 {
-    color: #434242;
 }
