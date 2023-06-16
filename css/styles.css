@@ -1,0 +1,24 @@
+
+body {
+    background-color: #c2c0ae;
+}
+
+p {
+    line-height: 1.5 ;
+}
+
+table {
+    border: solid;
+    border-style: none;
+    border-spacing: 0px;
+    color: #434242;
+    line-height: 2;
+}
+
+h3 {
+    color: #434242;
+}
+
+h4 {
+    color: #434242;
+}
