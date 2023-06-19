@@ -1,3 +1,4 @@
+
 body {
     background-color: #c2c0ae;
     color: #434242;
@@ -13,4 +14,13 @@ table {
     border-spacing: 0px;
     color: #434242;
     line-height: 2;
+}
+
+p:hover, .cl_hover_background:hover {
+    background-color: rgb(161, 184, 167);
+}
+
+img:hover {
+    border-radius: 100;
+    background-color: #c2c0ae;
 }
