@@ -1,1 +1,1 @@
-https://kaleturgay.github.io/cv/
+My CV at https://kaleturgay.github.io/cv/
