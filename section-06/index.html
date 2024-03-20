@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Meow App</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/8e104bd6e1.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap  Fonts -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
+  <!-- Custom Fonts -->
+  <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+
+<body>
+
+  <section id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href=""><i class="fa-solid fa-cat" style="color: #cbcbcd"></i><span style="color: #cbcbcd"> meow.app</span></a>
+
+        <button id="btn-navbar-toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6 col-md-4">
+          <h1>Meet new and interesting cats nearby.</h1> 
+          <button type="button" class="btn btn-outline-dark btn-lg btn-download"><i class="fa-brands fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg btn-download"><i class="fa-brands fa-google-play"></i> Download</button>
+        </div>
+        <div class="col-lg-6 col-md-4">
+          <img class="img-title" src="images/iphone6.png" alt="iphone-mockup">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-12 features-box">
+        <i class="fa-solid fa-circle-check fa-4x custom-icon"></i>
+        <h3>Easy to use</h3>
+        <p>So easy to use, even your pet could do it</p>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12 features-box">
+        <i class="fa-solid fa-bullseye fa-4x custom-icon"></i>
+        <h3>Elite Clientele</h3>
+        <p>We have all the cats, the greatest cats</p>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12 features-box">
+        <i class="fa-solid fa-heart fa-4x custom-icon"></i>
+        <h3>Guaranteed to work</h3>
+        <p>Find the love of your cat's life or your money back</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+    <div id="carouselTestimonials" class="carousel slide" data-ride="carousel" data-interval="4000">
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="background-color: ff4c68;">
+          <h2>I no longer have to sniff other cats for love. I've found the hottest cuties on meow.app ! Woof !</h2>
+          <img class="img-testimonials" src="images/dog-img.jpg" alt="dog-profile" style="margin: 5% 0% 5% 0%;">
+          <em style="color: #dcd7d7; padding: 10px;"> Cinnamon, New York</em>
+        </div>
+        <div class="carousel-item" style="background-color: ff4c68;">
+          <h2>My cat used to be so lonely, but with meow.app's help, they've found the love of their life. I think.</h2>
+          <img class="img-testimonials" src="images/gokhan.jfif" alt="dog-profile" style="margin: 5% 0% 5% 0%;">
+          <em style="color: #dcd7d7; padding: 10px;"> Gokhan, Amsterdam</em>
+        </div>
+        <div class="carousel-item" style="background-color: ff4c68;">
+          <h2>My paw luckly has found his girlfriend via meow.app !</h2>
+          <img class="img-testimonials" src="images/lady-img.jpg" alt="dog-profile" style="margin: 5% 0% 5% 0%;">
+          <em style="color: #dcd7d7; padding: 10px;"> Anne Marie, Toulouse</em>
+        </div>
+        <div class="carousel-item" style="background-color: ff4c68;">
+          <h2>If your cutie is looking for a friend, this is for you ! Don't forget to check it out !</h2>
+          <img class="img-testimonials" src="images/bariskara-img.jfif" alt="dog-profile" style="margin: 5% 0% 5% 0%;">
+          <em style="color: #dcd7d7; padding: 10px;"> Baris, London</em>
+        </div>
+      </div>
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="logo-press" src="images/techcrunch.png" alt="tc-logo">
+    <img class="logo-press" src="images/tnw.png" alt="tnw-logo">
+    <img class="logo-press" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="logo-press" src="images/mashable.png" alt="mashable-logo">
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing" style="padding-top: 3%; padding-bottom: 3%; padding-left: 10%; padding-right: 10%; background-color: #ddf1de;">
+    <div class="card-deck mb-3 text-center">
+      <div class="card box-shadow">
+        <div class="card-header" style="background-color: #d4e4e7">
+          <h4 class="my-0 font-weight-normal">Free</h4>
+        </div>
+        <div class="card-body" style="background-color: #eef8ef;">
+          <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ month</small></h1>
+          <ul class="list-unstyled mt-3 mb-6">
+            <li>Single Plan for Every Pet's Needs</li>
+            <li>5 Matches Per Day</li>
+            <li>10 Messages Per Day</li>
+            <li>Unlimited App Usage</li>
+          </ul>
+          <button type="button" class="btn btn-lg btn-block btn-outline-secondary">Sign up for free</button>
+        </div>
+      </div>
+      <div class="card box-shadow">
+        <div class="card-header" style="background-color: #e7d4d4">
+          <h4 class="my-0 font-weight-normal">Exclusive</h4>
+        </div>
+        <div class="card-body" style="background-color: #eef8ef;">
+          <h1 class="card-title pricing-card-title">$4.99 <small class="text-muted">/ month</small></h1>
+          <ul class="list-unstyled mt-3 mb-6">
+            <li>Multiple Plans for Every Pet's Needs</li>
+            <li>Unlimited Matches</li>
+            <li>Unlimited Messages</li>
+            <li>Unlimited App Usage</li>
+          </ul>
+          <button type="button" class="btn btn-lg btn-block btn-outline-success">Get started</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <footer id="footer" style="text-align:center; background-color: #ddf1de; padding-bottom: 0.4%;">
+    <p>© Copyright meow.app </p>
+  </footer>
+
+</body>
+
+</html>
